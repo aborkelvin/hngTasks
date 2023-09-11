@@ -12,7 +12,7 @@ app.get('/api',(req,res)=>{
     const slack_name = req.query.slack_name;
     const track = req.query.track;
 
-    res.send(`Hello ${slack_name}, Welcome to ${track} track`)
+    //res.send(`Hello ${slack_name}, Welcome to ${track} track`)
     
     // Get current day in full name
     const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
